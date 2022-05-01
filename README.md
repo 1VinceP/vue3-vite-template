@@ -9,6 +9,9 @@ Download the template with [degit](https://github.com/Rich-Harris/degit)
 Install dependencies
 > npm install
 
+Prepare Husky
+> npm run prepare
+
 Run the project and begin development
 > npm run serve
 
