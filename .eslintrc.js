@@ -35,4 +35,15 @@ module.exports = {
          'vue/multi-word-component-names': 0,
       },
    }],
+   settings: {
+      'import/resolver': {
+         node: {
+            moduleDirectory: ['node_modules', './src/'],
+         },
+         alias: {
+            map: [['@', './src']],
+         },
+         extensions: ['.vue', '.js'],
+      },
+   },
 };
